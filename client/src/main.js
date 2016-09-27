@@ -23,6 +23,14 @@ const users = [
       "email":"cwatkins6@cargocollective.com",
       "gender":"F",
       "photo": "https://randomuser.me/api/portraits/thumb/women/2.jpg"
+   },
+   {
+      "id":3,
+      "first_name":"Benjamin",
+      "last_name":"Ramirez",
+      "email":"bramirez2@parallels.com",
+      "gender":"M",
+      "photo": "https://randomuser.me/api/portraits/thumb/men/3.jpg"
    }
 ]
 
