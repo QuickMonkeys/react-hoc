@@ -1,7 +1,7 @@
 {
   "name": "ReactHOC",
   "version": "1.0.0",
-  "description": "An example of react with node.js",
+  "description": "An example of react HOCs",
   "main": "server.js",
   "repository": "",
   "author": "Carlos Eduardo",
@@ -37,6 +37,6 @@
   "scripts": {
     "start": "node server.js",
     "devbuild": "webpack --progress --color",
-    "probuild": "webpack --progress --optimize-minimize --optimize-occurrence-order --optimize-dedupe"
+    "probuild": "webpack --config ./webpack.config.prod.js --progress --colors --display-error-details"
   }
 }
