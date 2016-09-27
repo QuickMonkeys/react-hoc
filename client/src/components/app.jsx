@@ -29,6 +29,5 @@ export default ({users}) => {
                 <div>User component with HOCs: props and style.</div>
                 <hr />
                 {users.map( u => <UserHocStyle key={u.id} data={u} />)}
-                <hr />
             </div>)
 }
