@@ -1,12 +1,7 @@
 import React from 'react';
 
 export default ComposedComponent => class extends React.Component {
-    
-    constructor() {
-        super();
-        this.handleClick= this.handleClick.bind(this);
-    }
-    
+
     handleClick(data) {
         alert(`${data.id} - ${data.last_name}, ${data.first_name}`);
     }

@@ -2,10 +2,6 @@ import React from 'react';
 
 export default class User extends React.Component {
     
-    constructor() {
-        super();
-    }
-    
     render() {
         let {data, clickProps} = this.props;
         return (<div {...clickProps}>
@@ -15,5 +11,4 @@ export default class User extends React.Component {
                     <div className="email">{data.email}</div>
                 </div>);
     }
-    
 }
