@@ -7,7 +7,7 @@ import HocStyle from './hocStyle.jsx';
 
 // Wrap the component user with Props...
 const UserHocProps = HocProps(User);
-// And then wrap the result of user props wrap
+// And then wrap the result of user props wrapped.
 const UserHocStyle = HocStyle(UserHocProps);
 
 // Just a style for hr
