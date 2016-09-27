@@ -13,6 +13,6 @@ export default ComposedComponent => class extends React.Component {
                 onClick: () => this.handleClick(data)
             }
         }
-        return <ComposedComponent  {...this.props} {...addedProps} />
+        return <ComposedComponent {...this.props} {...addedProps} />
     }    
 }
