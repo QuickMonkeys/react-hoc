@@ -37,9 +37,6 @@
   "scripts": {
     "start": "node server.js",
     "devbuild": "webpack --progress --color",
-    "probuild": "webpack --progress --optimize-minimize --optimize-occurrence-order --optimize-dedupe",
-    "publish": "npm run probuild && npm run publish:commit && npm run publish:heroku",
-    "publish:commit": "git commit -am'bundle'",
-    "publish:heroku": "git push heroku master"
+    "probuild": "webpack --progress --optimize-minimize --optimize-occurrence-order --optimize-dedupe"
   }
 }
