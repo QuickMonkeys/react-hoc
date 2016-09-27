@@ -22,11 +22,11 @@ export default ({users}) => {
                     <hr />
                     {users.map( u => <User key={u.id} data={u} />)}
                     <hr {...orangeStyle} />
-                    <div>User component with HOCs: props (click to see what happens):</div>
+                    <div>User component with HOCs: props (click to see what happens).</div>
                     <hr />
                     {users.map( u => <UserHocProps key={u.id} data={u} />)}
                     <hr {...orangeStyle} />
-                    <div>User component with HOCs: props and style</div>
+                    <div>User component with HOCs: props and style.</div>
                     <hr />
                     {users.map( u => <UserHocStyle key={u.id} data={u} />)}
                 </div>)
