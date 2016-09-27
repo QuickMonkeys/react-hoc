@@ -16,5 +16,5 @@ run `npm i` to install node_modules
 
 run `nf start` to start the application using Foreman.
 
-You can see a live Demo here.
+You can see a live [Demo](http://react-hoc-quick.herokuapp.com/) here.
 
